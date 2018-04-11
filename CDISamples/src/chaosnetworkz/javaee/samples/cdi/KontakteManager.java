@@ -11,14 +11,13 @@ import chaosnetworkz.javaee.samples.qualifier.Test;
 public class KontakteManager {
 
 	//Kontakte Provider per CDI injizieren 
-	//per selbst definierten Qualifier @TEST und Alternatives 
+	//Per selbst definierten Qualifier @Test und Alternatives 
 	//Je nachdem was benötigt wird
 	@Inject @Test
 	private KontakteProvider kontakteProvider;
 	
-	//Producer Injizieren, dass klappt ohne weitere angaben,
-	//da es im gesamten Projekt keine weitere Liste vom Typ String gibt
-	//die mit produces annotiert ist
+	//Producer Injizieren, dass klappt hier ohne weitere Angaben,
+	//da es im gesamten Projekt keine weitere Listen vom Typ String gibt die mit produces annotiert ist
 	@Inject
 	private List<String> kontakteNamen;
 	

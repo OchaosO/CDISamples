@@ -20,7 +20,7 @@ public class NamenServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	//Instanzieren per CDI und nicht im Konstruktor
-	//Bean discovery Modus kann auf all gesetzt sein. Wenn nicht klappt der Inject nur wenn alle
+	//Bean discovery Modus kann auf all gesetzt sein. Wenn nicht klappt der Inject nur, wenn alle
 	//Typen auch eine Lebenszyklus Annotation haben z.B.: @SessionScope oder @Dependent
 	@Inject
 	private KontakteManager kontakteManager;

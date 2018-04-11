@@ -13,7 +13,8 @@ import chaosnetworkz.javaee.samples.qualifier.Test;
 @Dependent
 //Eigener Qualifier
 @Test
-//Bean ist als Alternative angelegt und kann in der Beans.xml aktiv gesetzt werden
+//Bean ist als Alternative angelegt und kann in der beans.xml aktiv gesetzt werden
+//Alternativen können auch mit einer Producer Methode verwenden werden (siehe KontakteProviderFactory)
 @Alternative
 public class TestKontakteProvider extends KontakteProvider{
 	

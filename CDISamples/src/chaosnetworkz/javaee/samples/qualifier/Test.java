@@ -8,9 +8,9 @@ import java.lang.annotation.Target;
 import javax.inject.Qualifier;
 
 @Qualifier
-//Wo ist der Qualifier für Java Sichtbar
+//Wo ist der Qualifier für Java sichtbar
 @Retention(RetentionPolicy.RUNTIME)
-//Wo kann der Qulifier verwendet werden
+//Wo kann der Qualifier verwendet werden
 @Target({ElementType.CONSTRUCTOR,
 		ElementType.FIELD,
 		ElementType.TYPE,

@@ -9,9 +9,8 @@ import chaosnetworkz.javaee.samples.qualifier.Test;
 @Dependent
 public class KontakteProviderFactory {
 	
-	//Nutzung der Produces Annotation um Instanz des TestKontakteProviders zu erzeugen
-	//und bei der erzeugung noch zu manipulieren
-	//Per qualifier @Test wird dann der hier definierte TestKontakteProvider instanziert
+	//Nutzung der Produces Annotation um Instanz des TestKontakteProviders zu erzeugen (@Test)
+	//Vorteil: Manipulation bei dem Erzeugen möglich
 	@Produces @Test
 	public KontakteProvider getProvider() {
 		TestKontakteProvider provider = new TestKontakteProvider();
