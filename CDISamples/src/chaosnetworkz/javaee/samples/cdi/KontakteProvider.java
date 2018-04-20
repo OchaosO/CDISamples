@@ -21,9 +21,7 @@ public class KontakteProvider {
 	}
 	
 	public List<String> getKontakteNamen() {
-		
 		return standardKontakte;
-		
 	}
 
 }

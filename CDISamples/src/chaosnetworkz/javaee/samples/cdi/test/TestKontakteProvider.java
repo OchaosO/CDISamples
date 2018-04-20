@@ -26,6 +26,8 @@ public class TestKontakteProvider extends KontakteProvider{
 					new String[] {"Test - Hans","Test - Peter","Test - Klaus"}  )
 				); 
 		
+		
+		
 	}
 
 }
